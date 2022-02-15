@@ -1,1 +1,1 @@
-# Score-Project
+Created this to test my Javascript Knowledge
