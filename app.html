@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <section>
+    <div class="container">
+       
+        <div class="columns">
+            <div class="column is-half  is-offset-one-quarter">
+                <div class="card">
+                    <figure class="image is-2by1">
+                        <img src="C:\Users\sanni\OneDrive\Desktop\Javascript\Score Project\istockphoto-502189498-612x612.jpg">
+                      </figure>
+                    <header class="card-header">
+                      <p class="card-header-title">
+                        PingPong Score Keeper
+                      </p>
+                
+                    </header>
+                    <div class="card-content">
+                        <h1 class = "title is-2"> <span id="p1h1" >0</span>  to <span id="p2h2" >0</span> </h1>
+                        <p class="subtitle"> Use the following  button to keep score </p>
+                        <label for="select" class="label is-large is-inline">Playing to win</label>
+                         <div class="select is-rounded">
+                            <select id="select" >
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                            </select>
+                        </div>
+                        
+                    </div>
+                    
+                    <footer class="card-footer">
+                        <button id="p1"class="button is-primary is-hovered card-footer-item is-large">Player 1</button>
+                        <button id="p2"class="button is-info is-hovered card-footer-item is-large">Player 2</button>
+                        <button id="reset"class="button is-danger is-hovered card-footer-item is-large">Reset</button>
+                     
+                      
+                    </footer>
+                  </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <script src="app.js"></script>
+</body>
+</html>
