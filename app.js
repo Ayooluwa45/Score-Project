@@ -60,5 +60,3 @@ p2.button.addEventListener('click', function(){
             p.button.disabled= false
         }
     }
-
-    fghjkolpoiuz,,,kjjhhh
